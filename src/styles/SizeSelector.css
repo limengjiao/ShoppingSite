@@ -1,0 +1,38 @@
+.size-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.size-text {
+  font-size: 15px;
+  color: #888888;
+  margin-bottom: 5px;
+}
+
+.size-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.size-button {
+  padding: 8px 16px;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  color: #888888;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.size-button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.size-button.selected {
+  background-color: #222;
+  color: #fff;
+}

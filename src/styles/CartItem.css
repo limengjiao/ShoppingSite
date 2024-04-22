@@ -1,0 +1,31 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px;
+}
+
+.cart-item-image {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-title {
+  font-size: 14px;
+  color: #222222;
+}
+
+.cart-item-price {
+  font-size: 14px;
+  color: #222222;
+}
+
+.cart-item-size {
+  font-size: 13px;
+  color: #222222;
+}
